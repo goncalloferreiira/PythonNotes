@@ -1,0 +1,8 @@
+comprimento = int(input("Insira o comprimento do retângulo: "))   # Solicita e converte o comprimento.
+largura = int(input("Insira a largura do retângulo: "))           # Solicita e converte a largura.
+
+perimetro = 2 * (comprimento + largura)                           # Calcula o perímetro do retângulo.
+area = comprimento * largura                                      # Calcula a área do retângulo.
+
+print("Perímetro:", perimetro)                                    # Apresenta o valor do perímetro.
+print("Área:", area)                                              # Apresenta o valor da área.
