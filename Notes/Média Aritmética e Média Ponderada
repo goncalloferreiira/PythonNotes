@@ -1,0 +1,9 @@
+nota1 = float(input("Insira a 1ª nota: "))   # Solicita e converte a primeira nota para float.
+nota2 = float(input("Insira a 2ª nota: "))   # Solicita e converte a segunda nota para float.
+nota3 = float(input("Insira a 3ª nota: "))   # Solicita e converte a terceira nota para float.
+
+media_aritmetica = (nota1 + nota2 + nota3) / 3                       # Calcula a média aritmética simples.
+media_ponderada = (nota1 * 0.20) + (nota2 * 0.30) + (nota3 * 0.50)   # Calcula a média ponderada com pesos 20%, 30%, 50%.
+
+print("Média Aritmética:", media_aritmetica)                         # Apresenta a média aritmética.
+print("Média Ponderada:", media_ponderada)                           # Apresenta a média ponderada.
