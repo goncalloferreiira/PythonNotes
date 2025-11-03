@@ -1,0 +1,7 @@
+num1 = int(input("Insira o 1º número: "))     # Solicita e converte o primeiro número para inteiro.
+num2 = int(input("Insira o 2º número: "))     # Solicita e converte o segundo número para inteiro.
+
+if (num1 > num2):                             # Verifica se o primeiro número é maior que o segundo.
+    print("Maior:", num1)                     # Se sim, imprime o primeiro número como o maior.
+else:                                         # Caso contrário (se num2 for maior ou igual a num1).
+    print("Maior:", num2)                     # Imprime o segundo número como o maior.
