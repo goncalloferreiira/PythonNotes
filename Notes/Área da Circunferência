@@ -1,0 +1,4 @@
+raio = float(input("Insira o raio da circunferência: "))   # Solicita e converte o raio para float.
+PI = 3.14159                                               # Define o valor aproximado de PI.
+area = PI * raio * raio                                    # Calcula a área da circunferência (PI * raio²).
+print("Área:", area)                                       # Apresenta o resultado da área.
