@@ -1,0 +1,7 @@
+num1 = int(input("Insira o primeiro número: "))     # Solicita e converte o primeiro número para inteiro.
+num2 = int(input("Insira o segundo número: "))      # Solicita e converte o segundo número para inteiro.
+
+print("Soma:", num1 + num2)                         # Calcula e apresenta a soma.
+print("Subtração:", num1 - num2)                    # Calcula e apresenta a subtração.
+print("Multiplicação:", num1 * num2)                # Calcula e apresenta a multiplicação.
+print("Divisão:", num1 / num2)                      # Calcula e apresenta a divisão.
