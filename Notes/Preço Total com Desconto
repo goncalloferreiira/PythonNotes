@@ -1,0 +1,8 @@
+preco_produto1 = float(input("Insira o preço do 1º produto: "))                     # Solicita e converte o preço do 1º produto.
+preco_produto2 = float(input("Insira o preço do 2º produto: "))                     # Solicita e converte o preço do 2º produto.
+preco_produto3 = float(input("Insira o preço do 3º produto: "))                     # Solicita e converte o preço do 3º produto.
+
+total_sem_desconto = preco_produto1 + preco_produto2 + preco_produto3               # Calcula o total dos preços sem desconto.
+total_com_desconto = total_sem_desconto * 0.90                                      # Aplica 10% de desconto (multiplica por 0.90).
+
+print("Valor a pagar com 10% de desconto:", round(total_com_desconto, 2), "€")      # Apresenta o total com desconto, arredondado a 2 casas.
