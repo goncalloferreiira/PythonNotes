@@ -17,4 +17,7 @@ if (salario > 25000):                           # Condição 4: Salário superio
     print("Taxas de 40%:", impostos)            # Imprime o resultado.
 
 
-#Nota: Este código usa múltiplas ifs independentes. Uma estrutura if-elif-else seria mais eficiente e idiomática em Python para este tipo de problema, garantindo que apenas uma condição é avaliada como verdadeira.
+# Nota: Este código usa múltiplas ifs independentes. 
+Uma estrutura if-elif-else seria mais eficiente e idiomática 
+em Python para este tipo de problema, garantindo que 
+apenas uma condição é avaliada como verdadeira.
