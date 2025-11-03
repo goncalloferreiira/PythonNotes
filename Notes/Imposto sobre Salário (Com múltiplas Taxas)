@@ -15,3 +15,6 @@ if (salario > 20000 and salario <= 25000):      # Condição 3: Salário entre 2
 if (salario > 25000):                           # Condição 4: Salário superior a 25.000€.
     impostos = salario * 0.4                    # Calcula impostos a 40%.
     print("Taxas de 40%:", impostos)            # Imprime o resultado.
+
+
+#Nota: Este código usa múltiplas ifs independentes. Uma estrutura if-elif-else seria mais eficiente e idiomática em Python para este tipo de problema, garantindo que apenas uma condição é avaliada como verdadeira.
