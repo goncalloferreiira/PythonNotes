@@ -10,3 +10,4 @@ print("Soma:", soma)
 
 ###ANOTAÇÕES###
 # soma = num1 + num2: Realiza a operação de adição entre num1 e num2 e guarda o resultado na variável soma.
+###FIM###
