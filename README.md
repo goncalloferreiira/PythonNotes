@@ -1,3 +1,3 @@
 # PythonNotes for Dummies 
 
-#each exercise comes with a refined explanation, so your dumbass can understand it
+Each exercise comes with a refined explanation, so your dumbass ass can understand it
