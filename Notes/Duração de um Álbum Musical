@@ -1,6 +1,6 @@
 total_segundos_album = 0                                                             # Inicializa o contador total de segundos do álbum.
 
-for i in range(1, 6): # Itera por 5 músicas (i de 1 a 5).
+for i in range(1, 6):                                                                # Itera por 5 músicas (i de 1 a 5).
     minutos = int(input(f"Minutos da {i}ª música: "))                                # Solicita os minutos da música atual.
     segundos = int(input(f"Segundos da {i}ª música: "))                              # Solicita os segundos da música atual.
     total_segundos_album += (minutos * 60) + segundos                                # Converte minutos para segundos e adiciona ao total.
